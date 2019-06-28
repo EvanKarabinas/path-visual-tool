@@ -1,0 +1,208 @@
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 95%;
+}
+button:focus {
+  outline: none;
+}
+
+#left-column {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 80px;
+  padding-bottom: 25px;
+
+  padding-right: 25px;
+  /*border: 1px solid #dadddf;
+  border-radius: 10px;*/
+  margin-left: 30px;
+  margin-top: 25px;
+
+  max-width: 220px;
+  background-color: white;
+  outline: 1px solid #dadddf;
+
+  outline-offset: -10px;
+}
+
+#header {
+  margin: 0px;
+  padding-top: 0px;
+  padding-left: 25px;
+  padding-right: 60px;
+}
+#description {
+  padding-bottom: 15px;
+  color: #5e85a1;
+  padding-left: 25px;
+}
+#grid-label {
+  padding-left: 25px;
+}
+#input {
+  padding-left: 25px;
+}
+
+#rows-input {
+  width: 90px;
+  height: 15px;
+  margin-bottom: 10px;
+  background-color: white;
+  color: black;
+  border: 1px solid #dadddf;
+  border-radius: 2px;
+}
+#columns-input {
+  width: 90px;
+  height: 15px;
+  background-color: white;
+  color: black;
+  border: 1px solid #dadddf;
+  border-radius: 2px;
+}
+#points-input {
+  padding-left: 25px;
+}
+.point-input {
+  border: 1px solid #dadddf;
+  border-radius: 2px;
+  width: 90px;
+  height: 15px;
+  background-color: white;
+  color: black;
+}
+#refresh-b {
+  padding: 7px;
+  background-color: #01385e;
+  color: #cce0ee;
+  border: 1px solid #dadddf;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#start-b {
+  padding: 7px;
+  background-color: #01385e;
+  color: #cce0ee;
+  border: 1px solid #dadddf;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+#start-b:hover {
+  background-color: #0f5383;
+  color: #e9edf0;
+}
+
+#refresh-b:hover {
+  background-color: #0f5383;
+  color: #e9edf0;
+}
+
+#points-input {
+  padding-left: 25px;
+  padding-top: 10px;
+}
+
+#start-point-b {
+  border: 1px solid #dadddf;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #64b179;
+  color: white;
+}
+
+#goal-point-b {
+  border: 1px solid #dadddf;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #b86a64;
+  color: white;
+}
+
+#minimize-b {
+  position: relative;
+  z-index: 1;
+  left: 0px;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #dadddf;
+  background-color: #01385e;
+  color: #e9edf0;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#minimize-b:hover {
+  background-color: #0f5383;
+  color: #e9edf0;
+}
+
+.hide {
+  display: none;
+  padding: 0px;
+  margin: 0px;
+  max-height: 10px;
+}
+
+#grid-container {
+  margin-left: 280px;
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+
+  padding: 35px 25px 25px 0px;
+  overflow-x: scroll;
+  background-color: white;
+}
+
+.row-container {
+  display: flex;
+  flex: 0 0 auto;
+  margin: 0;
+  line-height: 0;
+}
+.node {
+  border-style: none;
+  margin: 1px;
+  cursor: pointer;
+  background-color: white;
+  font-size: 6px;
+  min-width: 25px;
+  min-height: 25px;
+  max-height: 25px;
+  max-width: 25px;
+  background-color: #f5f8fa;
+  color: black;
+}
+
+.start-node {
+  background-color: #64b179;
+}
+
+.goal-node {
+  background-color: #b86a64;
+}
+
+.node:hover {
+  background-color: #01385e;
+  color: #5e85a1;
+}
+
+.node-obstacle {
+  background-color: #01385e;
+  color: #5e85a1;
+}

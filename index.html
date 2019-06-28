@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Algorithm Simulation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="left-column">
+      <button id="minimize-b">?</button>
+      <h1 id="header">
+        Algorithm Simulation
+      </h1>
+      <p1 id="description"
+        >A simple visualization tool for path finding algorithms.</p1
+      >
+
+      <p2 id="grid-label">Grid size</p2>
+      <div id="input">
+        <input id="rows-input" type="number" autocomplete="off" />
+        <input id="columns-input" type="number" autocomplete="off" />
+      </div>
+      <button id="refresh-b">Create</button>
+      <div id="points-input">
+        <label>Start point </label>
+        <button id="start-point-b">S</button>
+        <div id="start-input">
+          <input
+            id="start-x"
+            class="point-input"
+            type="number"
+            autocomplete="off"
+          />
+          <input
+            id="start-y"
+            class="point-input"
+            type="number"
+            autocomplete="off"
+          />
+        </div>
+        <label>Goal point</label>
+        <button id="goal-point-b">G</button>
+        <div id="goal-input">
+          <input
+            id="goal-x"
+            class="point-input"
+            type="number"
+            autocomplete="off"
+          />
+          <input
+            id="goal-y"
+            class="point-input"
+            type="number"
+            autocomplete="off"
+          />
+        </div>
+      </div>
+      <button id="start-b">Start</button>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
