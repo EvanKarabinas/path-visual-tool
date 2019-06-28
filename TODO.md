@@ -1,4 +1,4 @@
-# Logic
+### Logic
 
 - [ ] Check user input for grid size and S,G points
 - [ ] Grid must be created to start the simulation.
@@ -10,11 +10,11 @@
 - [ ] Implement BFS
 - [ ] Implement DFS
 
-#UI
+###UI
 
 - [ ] Implement an error throwing system
 - [ ] Finish the Help button
 
-#Other
+###Other
 
 - Shortcuts for fast obstacle selection
