@@ -10,11 +10,11 @@
 - [ ] Implement BFS
 - [ ] Implement DFS
 
-###UI
+**UI**
 
 - [ ] Implement an error throwing system
 - [ ] Finish the Help button
 
-###Other
+**Other**
 
 - Shortcuts for fast obstacle selection
